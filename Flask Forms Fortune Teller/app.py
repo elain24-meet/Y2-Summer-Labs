@@ -23,7 +23,8 @@ def fortune(birthM):
 	finalFortune = possible_fortunes[9]
 	if lenOfMonth < 10:
 		finalFortune = possible_fortunes[lenOfMonth-1]
-
+	else:
+		finalFortune = "Not availible"
 	return render_template("fortune.html", fortune = finalFortune)
 
 
