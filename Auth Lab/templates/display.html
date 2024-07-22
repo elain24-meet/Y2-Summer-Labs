@@ -3,9 +3,10 @@
     <title>CS Lab num 9</title>
 </head>
 <body id="body">
-    <p> {%for i in qoutes%}
-            {{i}}
-            {%endfor%}
+    {%for i in quotes%}
+    <p> {{quotes[i]['text']}}
+         {{quotes[i]['said_by']}}
+    {%endfor%}
     </p>
 
         <style>
