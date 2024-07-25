@@ -177,7 +177,9 @@ def wavy():
 @app.route('/result/<Hairtype>/<subtype>', methods=['GET', 'POST'])
 def result(Hairtype, subtype):
   info = db.child("Hair types").child(Hairtype).child(subtype).get().val()
+  print(info['likes'])
   likes = info['likes']
+
   dislikes = info['dislikes']
   links = info['links']
   if request.method == 'GET':
