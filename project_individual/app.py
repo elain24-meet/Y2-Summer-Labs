@@ -104,8 +104,8 @@ def type():
         return render_template("wavy.html")
       if request.form['type'] == "Straigth":
         return render_template("straigth.html")
-      if request.form['type'] == "Combinatiom":
-        return render_template("combinatiom.html")
+      if request.form['type'] == "Combination":
+        return render_template("combination.html")
 
 
       return render_template("type.html")
