@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PerfectMatch Co.</title>
+</head>
+<body id="body">
+    <center> <img height="300px"  src="https://i.ibb.co/VY9qRzV/Perfect-match-20240725-113340-0000-removebg-preview.png" alt="PMpic">
+    </center>
+    <a href="{{ links }}" id="Link">cheack the link</a>
+    <p id="likeCount">Likes: {{ likes }}</p>
+    <p id="dislikeCount">Dislikes: {{ dislikes }}</p>
+    <form action='/result/{{hairtype}}/{{subtype}}' method="POST">
+        <button type="submit" name="action" value="like">Like</button>
+        <button type="submit" name="action" value="dislike">Dislike</button>
+    </form>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+        p {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

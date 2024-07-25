@@ -1,0 +1,78 @@
+{
+	"Hair types": {
+		"curly": 
+		{
+			"loose": 
+				{
+				"links":"https://curlshoppe.ca/collections/loose-curly-hair",
+				"likes":0,
+				"dislikes":0},
+			"medium":
+				{
+				"links":"https://frizzoff.com/collections/medium-curl-products ",
+				"likes":0,
+				"dislikes":0
+				},
+			"tight":
+				{
+				"links":"https://frizzoff.com/collections/tight-curl-products ",
+				"likes":0,
+				"dislikes":0
+				}
+			
+		},
+		"combintation": 
+		{
+			"oilydry":
+				{
+				"links":"https://www.kerastase-usa.com/collections/specifique/divalent-oily-roots-dry-ends-hair-set.html",
+				"likes":0,
+				"dislikes":0
+				},
+			"dryoily":
+				{
+				"links":"https://rprhaircare.com.au/hair-type/oily-roots-dry-ends/ ",
+				"likes":0,
+				"dislikes":0
+				}
+
+		},
+		"straight":
+		{
+		 	"fine":
+				{
+				"links":"https://oway.com/en-gb/hair/hair-type/fine.html",
+				"likes":0,
+				"dislikes":0
+				},
+			"thick":
+				{
+				"links":"https://www.moroccanoil.com/collections/thick-coarse ",
+				"likes":0,
+				"dislikes":0
+				}
+		},
+		"wavy":
+		{
+
+			"loose": 
+				{
+				"links":"https://frizzoff.com/collections/loose-curl-products ",
+				"likes":0,
+				"dislikes":0},
+			"medium":
+				{
+				"links":"https://merwave.co.uk/products/merwave-starter-kit",
+				"likes":0,
+				"dislikes":0
+				},
+			"tight":
+				{
+				"links":"https://boucleme.us/collections/waves ",
+				"likes":0,
+				"dislikes":0
+				}
+			
+		}
+	}
+}
